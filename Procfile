@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn newspaper_project.wsgi 
